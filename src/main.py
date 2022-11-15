@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from starlette.responses import HTMLResponse
 
 app = FastAPI()
 
@@ -8,4 +9,5 @@ app = FastAPI()
                      'a user navigates to / url. As in, https://localhost:8000/,'
                      'they will be greeted with whatever this function returns.')
 def index_page():
-    return '<h1>Hello World</h1>'
+    return HTMLResponse(content='<html><body><h1>Hello, world!</h1></body></html>',
+                        media_type='text/html')
