@@ -41,3 +41,4 @@ uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
 ### Resources
 * [Official Git Online Book](https://git-scm.com/book/en/v2) -- Read the first 3 chapters, that should give you more than enough knowledge to help get us started. I used this book to learn it when I learnt Git in first year. It's very beginner friendly and it'll get you up and running quick :)
 * [Python Virtual Environments](https://python.land/virtual-environments/virtualenv) -- Decent article about what a virutal environment is, why we need one and how to get up and running with one.
+* [Web Service Gateway Interface](https://www.youtube.com/watch?v=WqrCnVAkLIo) -- I know that's a mouthful and sounds super complicated but do you ever wonder how exactly does an HTTP request become something that python can process and understand? This video is amazing and I love it. Maybe hold on till we start writing web server code before you watch it. It's very very very beginner accessible.
