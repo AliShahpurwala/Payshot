@@ -33,6 +33,11 @@ pip install -r requirements.txt
 ```
 This will download all the dependencies needed. Now, you're ready to start developing.
 To deactivate the virtual environment, just type `deactivate` in your command prompt.
+#### Running the server
+Once you have the virtual environment set up and running, to run the server, run this command in the Payshot directory with your virtual environment activated.
+```
+uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
+```
 ### Resources
 * [Official Git Online Book](https://git-scm.com/book/en/v2) -- Read the first 3 chapters, that should give you more than enough knowledge to help get us started. I used this book to learn it when I learnt Git in first year. It's very beginner friendly and it'll get you up and running quick :)
 * [Python Virtual Environments](https://python.land/virtual-environments/virtualenv) -- Decent article about what a virutal environment is, why we need one and how to get up and running with one.
