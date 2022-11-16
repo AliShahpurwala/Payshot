@@ -1,0 +1,14 @@
+name: Linting Python Code
+run-name: ${{ github.actor }} has pushed to the repository and is linting their code base.
+on: [push]
+jobs:
+  linting-code:
+    runs-on: ubuntu-latest
+    - name: Setting up repository
+      uses: actions/checkout@v3
+    - name: Setting up python environment
+      uses: actions/setup-python@v4
+    - name: Installing dependencies
+      run: pip install -r requirements.txt && pip install pylint
+    - name: Running pylint
+      run: pylint src
