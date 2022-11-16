@@ -1,5 +1,6 @@
 # Payshot
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
+![example workflow](https://github.com/AliShahpurwala/Payshot/actions/workflows/linting-service.yml/badge.svg)
 
 _Start of something awesome!_
 ### Using the main app
